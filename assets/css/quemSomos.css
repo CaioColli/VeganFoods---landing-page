@@ -1,0 +1,65 @@
+.quemSomos__titulo {
+    margin-top: 50px;
+    color: #8D0606;
+    text-align: center;
+    font-family: Pacifico;
+    font-size: 51px;
+}
+
+.quemSomos__p {
+    margin-top: 40px;
+    color: #8C8888;
+    font-size: 28px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.mulheres {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pessoa {
+    margin-top: 35px;
+    display: grid;
+}
+
+.pessoa__img {
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+}
+
+.roberta-img {
+    background-image: url(../img/pessoas/roberta.jpg);
+}
+
+.marcela-img {
+    background-image: url(../img/pessoas/marcela.jpg);
+}
+
+.andreia-img {
+    background-image: url(../img/pessoas/andreia.jpg);
+}
+
+.pessoa__span-1 {
+    margin-top: 15px;
+    font-family: Pacifico;
+    font-size: 32px;
+    color: #8D0606;
+    text-align: center;
+}
+
+.pessoa__span-2 {
+    margin-top: 10px;
+    font-size: 23px;
+    color: #8C8888;
+    text-align: center;
+}
+
+@media screen and (max-width: 428px) {
+
+    .mulheres {
+        display: grid;
+    }
+}

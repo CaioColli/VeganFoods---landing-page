@@ -1,0 +1,35 @@
+@import url("../css/header.css");
+@import url("../css/banner.css");
+@import url("../css/descricao.css");
+@import url("../css/receitas.css");
+@import url("../css/quemSomos.css");
+@import url("../css/footer.css");
+@import url("");
+@import url("");
+
+
+:root {
+	--
+	--
+	--
+	--
+	--
+	--
+	--
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+} 
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 400;
+}

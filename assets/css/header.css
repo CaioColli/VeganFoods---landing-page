@@ -1,0 +1,49 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-pagina {
+    margin-left: 60px;
+}
+
+.lista {
+    display: flex;
+}
+
+.lista-link {
+    font-family: Pacifico;
+    font-size: 25px;
+    text-transform: lowercase;
+    margin-top: 25px;
+    margin-right: 20px;
+}
+
+.lista-link:last-child {
+    margin-right: 60px
+}
+
+.ativo {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 428px) {
+    
+    .cabecalho {
+        justify-content: center;
+    }
+
+    .logo-pagina {
+        position: absolute;
+        left: -70px;
+        top: -15px;
+    }
+
+    .lista-link {
+        position: relative;
+        bottom: 15px;
+        left: 55px;
+        font-size: 20px;
+    }
+    
+}
